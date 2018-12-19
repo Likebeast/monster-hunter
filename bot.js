@@ -1,4 +1,3 @@
-console.log('Hola a todos soy el esclavo de like y estoy para ayudar');
 const Discord = require('discord.js');
 const bot = new Discord.Client();
 
@@ -32,4 +31,4 @@ bot.on('message' , (message) => {
 	}
 });	
 
-bot.login('NTI1MDU3NTc4NDg1NTQ3MDA4.DvxFwg.i9qb-tgJ_JafDf39UsNPRkCSo7I');
+client.login(process.env.BOT_TOKEN);
